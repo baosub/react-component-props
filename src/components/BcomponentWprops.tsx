@@ -1,5 +1,6 @@
 interface MiComponenteProps {
     mensaje: string;
+    
   }
 
 const BcomponentWprops: React.FC<MiComponenteProps> = ({mensaje}) => {
