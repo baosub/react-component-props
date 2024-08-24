@@ -3,7 +3,7 @@ interface MiComponenteProps {
   }
 
   const EtypedEvents = ({ onClick }: MiComponenteProps): JSX.Element => {
-    return <button onClick={onClick}>Haz clic aquí</button>;
+    return<> <button onClick={onClick}>Haz clic aquí</button>{'_______________________________________________'} </> 
   };
   
   export default EtypedEvents
